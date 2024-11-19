@@ -13,7 +13,7 @@ For example, we can look at how major American events like a presidential electi
 In my analysis I take into account variables, UMCSENT and PCEC96.  UMCSENT is the aforementioned University of Michigan Consumer Sentiment index while PCEC96 is a measure of personal consumption expenditures.  Computing a regression of these two variables can give us somewhat of an idea of how consumer sentiment will match up with how a person will spend over the course of a year.  Looking at the data from a visual standpoint we can see that consumer sentiment takes larger dips from major events like the 2008 recession and the pandemic in 2022 compared to personal consumption expenditures.  
 
 **Graphs of UMCSENT and PCEC96 over time:**  
-![][images/imageproject1_1.png]
+![][[images/imageproject1_1.png](https://github.com/chuckles023/Consumer-Sentiment-vs.-Real-Consumer-Expenditure-Forecast/blob/main/images/imageproject1_1.png?raw=true)]
 
 Linear Regression \- Estimation by Least Squares  
 Dependent Variable PCEC96  
@@ -38,7 +38,7 @@ Durbin-Watson Statistic                0.0120
 1\.  Constant                     12160.627347   595.637633     20.41615  0.00000000  
 2\.  UMCSENT                          8.015566     7.376632      1.08662  0.27850151
 
-![][imageproject1_2.png]
+![][[imageproject1_2.png](https://github.com/chuckles023/Consumer-Sentiment-vs.-Real-Consumer-Expenditure-Forecast/blob/main/images/imageproject1_2.png?raw=true)]
 
 **Conclusion:**
 
