@@ -52,3 +52,5 @@ Durbin-Watson Statistic                0.0120
 
 3. [**https://www.wsj.com/economy/consumers/americans-are-finally-feeling-better-about-the-economy-e964804f?mod=Searchresults\_pos1\&page=1**](https://www.wsj.com/economy/consumers/americans-are-finally-feeling-better-about-the-economy-e964804f?mod=Searchresults_pos1&page=1)
 
+Google doc backup: https://docs.google.com/document/d/1X77B0QzsbxG6Es0c-Xe2KZYf_UW51OA9W1AAwPGCjuE/edit?usp=sharing 
+
