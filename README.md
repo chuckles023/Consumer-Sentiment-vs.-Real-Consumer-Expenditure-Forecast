@@ -1,4 +1,4 @@
-#Consumer Sentiment vs. Real Consumer Expenditure Forecast
+# Consumer Sentiment vs. Real Consumer Expenditure Forecast
 
 February 2, 2024
 
@@ -8,13 +8,14 @@ One such comparable index would be the Conference Board’s Consumer Sentiment I
 
 For example, we can look at how major American events like a presidential election have an effect on consumer sentiment.  Because of factors like inflation and gas prices, President Biden’s approval rating is low, so it might be helpful to look at how consumers were behaving post-2016 election when Donald Trump was originally elected.  Immediately after Trump was elected, republicans became much more optimistic relative to democrats, according to the Survey of Consumer Expectations from the FED.  We also saw that republican counties were more pessimistic relative to democrats leading up to the election.  There are a few obvious differences between these 2 demographics, like average education and mean household income, but it was found that they didn’t have a significant effect on the difference in sentiment.  If we believe that consumers will react to the election similarly to 2016, it would be reasonable to believe that consumer sentiment will go even higher post election and is actually at a lower point right now.  
 
-**Method:**
+## Method:
 
 In my analysis I take into account variables, UMCSENT and PCEC96.  UMCSENT is the aforementioned University of Michigan Consumer Sentiment index while PCEC96 is a measure of personal consumption expenditures.  Computing a regression of these two variables can give us somewhat of an idea of how consumer sentiment will match up with how a person will spend over the course of a year.  Looking at the data from a visual standpoint we can see that consumer sentiment takes larger dips from major events like the 2008 recession and the pandemic in 2022 compared to personal consumption expenditures.  
 
 **Graphs of UMCSENT and PCEC96 over time:**  
 ![](https://github.com/chuckles023/Consumer-Sentiment-vs.-Real-Consumer-Expenditure-Forecast/blob/main/images/imageproject1_1.png?raw=true)
 
+```
 Linear Regression \- Estimation by Least Squares  
 Dependent Variable PCEC96  
 Monthly Data From 2002:01 To 2023:12  
@@ -34,9 +35,10 @@ Log Likelihood                     \-1765.8858
 Durbin-Watson Statistic                0.0120
 
     Variable                        Coeff      Std Error      T-Stat      Signif  
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*  
+----------------------------------------------------------------------------------------- 
 1\.  Constant                     12160.627347   595.637633     20.41615  0.00000000  
 2\.  UMCSENT                          8.015566     7.376632      1.08662  0.27850151
+```
 
 ![](https://github.com/chuckles023/Consumer-Sentiment-vs.-Real-Consumer-Expenditure-Forecast/blob/main/images/imageproject1_2.png?raw=true)
 
